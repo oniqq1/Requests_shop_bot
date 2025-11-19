@@ -14,7 +14,7 @@
 -   Viewing all active requests
 - A simple and visual demonstration of the bot's operation
 
-<img width="655" height="918" alt="image" src="https://github.com/user-attachments/assets/ab34eab6-431d-4fe5-acc6-133320397c89" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/ab34eab6-431d-4fe5-acc6-133320397c89" />
 
 ---
 
