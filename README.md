@@ -23,3 +23,50 @@
 1. Clone the repositories:
 ``` bash
 git clone https://github.com/oniqq1/Requests_shop_bot.git
+```
+
+2. Create requirements.txt
+``` bash
+  pip install -r requirements.txt
+```
+
+3. Create config.py in main directory and add two variables
+``` bash
+   BOT_TOKEN = 'YOUR BOT TOKEN'
+    OWNER_ID = YOUR/OWNER token
+```
+
+4. Start project
+``` bash
+  python bot.py
+```
+
+My congratulations , You've launched the project.
+
+---
+
+## 📂 File structure
+
+- bot.py — the main bot startup file
+- commands.py — bot commands for users and administrators
+- database/ — Files to works with db's tables
+- keyboards.py — keyboards and interface elements
+- handlers/ — event handlers
+- models/ — data models
+- states/ — states for the FSM
+
+---
+
+## ⚙️ Technologies
+
+Python 3.13
+aiogram 
+SQLite
+SQLAlchemy
+
+---
+
+If you have any questions or suggestions, please contact the author:
+Github - [click](https://github.com/oniqq1)
+Telegram - [here](https://t.me/codeniq)
+Discord - [there](https://discord.com/users/944632344105586730)
