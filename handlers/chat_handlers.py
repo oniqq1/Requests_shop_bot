@@ -2,8 +2,8 @@ from aiogram import types, html
 from aiogram.fsm.context import FSMContext
 from keyboards import build_standard_keyboard, build_back_keyboard
 from states.chat_form import ChatForm
-from databaseOLD import is_admin, get_all_applications_pending , get_applications_by_user
-
+from databases.applications import get_all_applications_pending , get_applications_by_user
+from databases.admins import is_admin
 
 active_chats = {}
 
