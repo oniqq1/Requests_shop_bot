@@ -1,13 +1,10 @@
-
-
 from aiogram import types , html
 from aiogram.fsm.context import FSMContext
 
-
-
 from keyboards import build_categories_name_keyboard , build_categories_id_keyboard , build_standard_keyboard , build_back_keyboard
 from states.application_form import ApplicationForm, ApplicationDeleteForm
-from database import create_application , get_applications_by_user , delete_application , get_all_categories
+from databases.applications import create_application , get_applications_by_user , delete_application
+from databases.categories import get_all_categories
 from models.application_model import ApplicationModel
 import re
 

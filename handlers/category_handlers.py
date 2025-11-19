@@ -1,9 +1,8 @@
-from http.client import responses
-
 from aiogram import types
 from aiogram.fsm.context import FSMContext
 from states.category_form import CategoryForm, CategoryDeleteForm
-from database import create_category ,  delete_category , get_all_categories , is_admin
+from databases.categories import create_category ,  delete_category , get_all_categories
+from databases.admins import is_admin
 
 
 async def command_create_category_handler(message: types.Message , state : FSMContext) -> None:

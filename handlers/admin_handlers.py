@@ -1,10 +1,8 @@
-from email import message
-
 from aiogram import types , html
 from aiogram.fsm.context import FSMContext
 from states.admin_form import AdminForm , AdminDeleteForm
-from database import is_admin , create_admin , delete_admin
-from models.admin_model import AdminModel
+from databases.admins import is_admin , create_admin , delete_admin
+
 from config import OWNER_ID
 
 
