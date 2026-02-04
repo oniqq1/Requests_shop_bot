@@ -1,4 +1,4 @@
-from databaseOLD import Base
+from databases.init import Base
 from sqlalchemy import Column,  String , Integer
 
 class CategoryModel(Base):

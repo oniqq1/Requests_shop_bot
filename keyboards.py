@@ -1,4 +1,5 @@
-from databases import get_all_categories , get_all_applications_pending
+from databases.categories import get_all_categories
+from databases.applications import get_all_applications_pending
 
 
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton

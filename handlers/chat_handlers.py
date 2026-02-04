@@ -5,10 +5,11 @@ from states.chat_form import ChatForm
 from databases.applications import get_all_applications_pending , get_applications_by_user
 from databases.admins import is_admin
 
+
 active_chats = {}
 
 
-async def command_see_all_pending_requests_handler(message: types.Message, state: FSMContext) -> None:
+async def command_see_all_pending_requests_handler(message: types.Message , state: FSMContext) -> None:
     applications = get_all_applications_pending()
     if not applications:
         await message.answer("Any pending requests.", reply_markup=build_standard_keyboard())

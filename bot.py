@@ -17,7 +17,7 @@ from states.application_form import ApplicationForm, ApplicationDeleteForm
 from states.category_form import CategoryDeleteForm , CategoryForm
 from states.admin_form import AdminDeleteForm , AdminForm
 
-from databases import init_db, add_owner_to_db
+from databases.init import init_db, add_owner_to_db
 from states.chat_form import ChatForm
 
 dp = Dispatcher(storage=MemoryStorage())

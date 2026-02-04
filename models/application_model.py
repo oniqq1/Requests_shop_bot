@@ -1,4 +1,4 @@
-from databaseOLD import Base
+from databases.init import Base
 from sqlalchemy import Column, Integer, String, DateTime
 from datetime import datetime , timezone
 

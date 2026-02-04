@@ -8,6 +8,9 @@ from databases.categories import get_all_categories
 from models.application_model import ApplicationModel
 import re
 
+
+
+
 async def command_start_handler(message: types.Message) -> None:
 
     await message.answer(f"Hello, {html.bold(message.from_user.full_name)}! \n"
